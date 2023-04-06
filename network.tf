@@ -2,5 +2,5 @@ module "network" {
   source  = "app.terraform.io/jumma-test/network/azurerm"
   version = "3.5.0"
   # insert required variables here
-  resource_group_name = test1
+  resource_group_name = "myresourcegroup"
 }
